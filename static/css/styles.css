@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+  scroll-behavior: smooth;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul,
+li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: monospace, monospace;
+  font-size: 1rem;
+  vertical-align: baseline;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+small {
+  font-size: 80%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  vertical-align: baseline;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25rem;
+}
+
+sup {
+  top: -0.5rem;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+textarea {
+  overflow: auto;
+  resize: none;
+}
+
+label {
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+main, footer, header, aside, div, section, nav {
+  box-sizing: border-box;
+}
+
+summary {
+  display: list-item;
+}
+
+@font-face {
+  font-family: "Neusharp", sans-serif;
+  src: url("../fonts/neusharp") format("woff2");
+}
+body {
+  background: url("../images/main-background.png") center/cover fixed no-repeat;
+}
+
+.home {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.home-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.home-left {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.home-image {
+  margin-left: 8rem;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+.home-text {
+  color: #ffffff;
+}
+.home-text-title {
+  font-family: "Neusharp", sans-serif;
+  font-size: 10rem;
+}
+.home-text-content {
+  font-family: Roboto, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.8;
+  color: #cccccc;
+}
+
+.socials {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.socials-container {
+  width: 100%;
+  max-width: 85rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 3rem;
+}
+.socials-container div {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.socials-container div p, .socials-container div i {
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
